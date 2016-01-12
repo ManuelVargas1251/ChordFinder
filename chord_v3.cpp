@@ -1,18 +1,5 @@
 /*
 Manuel Vargas
-
-This program should be able to display the chord name of the user inputted chord.
-This could help any musicians more quickly understand what chords they are playing.
-
-• Started Wed March 25, 2015
-	Today I only got the input working so that I could scan in the letters into an array(max of 10 notes).
-	
-• Friday March 27, 2015
-	Today I remade the input and storing into an array. It now works perfectly using strtok! Also added test for invalid input. Max of ~10+ notes including accidentals.
-	
-• Monday March 30, 2015
-	Figured out how to properly create an array of strings to store chromatic music library. Also made a new array to store user notes in order ("root position"). Also made another array to store the location of the notes so that I can test their distance from each other to determine if the interval is major or minor.
-
 */
 
 #include<iostream>
