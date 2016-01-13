@@ -1,7 +1,7 @@
 <!-- using shields.io for status buttons -->
 ![Build Status](https://img.shields.io/badge/Build-Passing-green.svg)
 ![UELVVA](https://img.shields.io/badge/Version-v0.3-blue.svg?style=flat)
-![aneranupy](https://img.shields.io/badge/aneranupy-critical-ff69b4.svg?style=flat)
+![Aneranupy](https://img.shields.io/badge/Aneranupy-Critical-ff69b4.svg?style=flat)
 
 
 ## Chord Finder
