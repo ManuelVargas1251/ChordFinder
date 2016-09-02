@@ -29,8 +29,9 @@ The program will run through both arrays and grab which ever values match. Doubl
 | **Sharps** | A | A# | B | C | C# | D | D# | E | F | F# | G | G# |
 | **Flats** | A | Bb | B | C | Db | D | Eb | E | F | Gb | G | Ab |
 ---
-##Example
+##Example 1
 Currently supports up to 4 notes but not all chords combinations have been defined.
+
 Input 1:
 
 	A C# E
@@ -39,10 +40,16 @@ Output:
 
 	A major
 
-Input 1:
+##Example 2
+Inversions are also supported but only up to the 2nd inversion.
+
+Input:
 
 	E A C#
 	
 Output:
 
 	A major, 2nd Inversion
+	
+##Development
+Currently I'm working on adding 7th chords as well as their inversions. Also adding intervals when only two notes are inputted. Lastly I'd like to be able to define extended chords (11 & 13 chords) with only 4 notes e.i. GFAE: G13.
