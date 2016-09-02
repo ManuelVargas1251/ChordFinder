@@ -30,10 +30,19 @@ The program will run through both arrays and grab which ever values match. Doubl
 | **Flats** | A | Bb | B | C | Db | D | Eb | E | F | Gb | G | Ab |
 ---
 ##Example
-Input:
+Currently supports up to 4 notes but not all chords combinations have been defined.
+Input 1:
 
 	A C# E
 	
 Output:
 
 	A major
+
+Input 1:
+
+	E A C#
+	
+Output:
+
+	A major, 2nd Inversion
