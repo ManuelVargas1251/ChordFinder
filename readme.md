@@ -31,6 +31,9 @@ The program will run through both arrays and grab which ever values match. Doubl
 ---
 ##Example
 Input:
+
 	A C# Eb
+	
 Output:
+
 	A major
