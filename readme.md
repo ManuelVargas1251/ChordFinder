@@ -8,7 +8,7 @@
 ## Chord Finder
 
 This program should be able to display the chord name of the user inputted chord.
-This could help any musicians more quickly understand what chords they are playing.
+This could help musicians more quickly understand what chords they are playing.
 
 To compile:
 
@@ -28,3 +28,9 @@ The program will run through both arrays and grab which ever values match. Doubl
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Sharps** | A | A# | B | C | C# | D | D# | E | F | F# | G | G# |
 | **Flats** | A | Bb | B | C | Db | D | Eb | E | F | Gb | G | Ab |
+---
+##Example
+Input:
+	A C# Eb
+Output:
+	A major
