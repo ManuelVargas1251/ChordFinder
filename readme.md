@@ -7,8 +7,8 @@
 
 ## Chord Finder
 
-This program should be able to display the chord name of the user inputted chord.
-This could help musicians more quickly understand what chords they are playing.
+This program should be able to display the chord name of the user inputted notes.
+This could help beginner musicians more quickly understand what chords they are playing.
 
 To compile:
 
@@ -29,7 +29,7 @@ The program will run through both arrays and grab which ever values match. Doubl
 | **Sharps** | A | A# | B | C | C# | D | D# | E | F | F# | G | G# |
 | **Flats** | A | Bb | B | C | Db | D | Eb | E | F | Gb | G | Ab |
 ---
-##Example 1
+##Example
 Currently supports up to 4 notes but not all chords combinations have been defined.
 
 Input 1:
@@ -40,7 +40,7 @@ Output:
 
 	A major
 
-##Example 2
+##Inversions
 Inversions are also supported but only up to the 2nd inversion.
 
 Input:
