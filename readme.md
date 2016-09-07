@@ -1,7 +1,7 @@
 <!-- using shields.io for status buttons -->
 ![Programming language](https://img.shields.io/badge/Language-C++-black.svg)
 ![Build Status](https://img.shields.io/badge/Build-Passing-green.svg)
-![UELVVA](https://img.shields.io/badge/Version-v0.3-blue.svg?style=flat)
+![Version](https://img.shields.io/badge/Version-v0.8-blue.svg?style=flat)
 ![Aneranupy](https://img.shields.io/badge/Aneranupy-Critical-ff69b4.svg?style=flat)
 
 
@@ -53,3 +53,5 @@ Output:
 	
 ##Development
 Currently I'm working on adding 7th chords as well as their inversions. Also adding intervals when only two notes are inputted. Lastly I'd like to be able to define extended chords (11 & 13 chords) with only 4 notes e.i. GFAE: G13.
+
+Since the last update I realized I could probably make tons of improvments in my code and port this to java and make an app out of it so this update will probably be the last.
