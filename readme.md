@@ -11,7 +11,7 @@ This could help beginner musicians more quickly understand what chords they are 
 
 To compile:
 
-    cpp -o chord chord.cpp
+    cpp -o chord chord_v8.cpp
 
 To run:
 
@@ -31,7 +31,7 @@ The program will run through both arrays and grab which ever values match. Doubl
 ##Example
 Currently supports up to 4 notes but not all chords combinations have been defined.
 
-Input 1:
+Input:
 
 	A C# E
 	
@@ -40,7 +40,7 @@ Output:
 	A major
 
 ##Inversions
-Inversions are also supported but only up to the 2nd inversion.
+[Inversions](https://en.wikipedia.org/wiki/Inversion_(music)#Chords) are also supported but only up to the 2nd inversion.
 
 Input:
 
@@ -51,6 +51,14 @@ Output:
 	A major, 2nd Inversion
 	
 ##Development
-Currently I'm working on adding 7th chords as well as their inversions. Also adding intervals when only two notes are inputted. Lastly I'd like to be able to define extended chords (11 & 13 chords) with only 4 notes e.i. GFAE: G13.
+Currently I'm working on adding [7th chords](https://en.wikipedia.org/wiki/Seventh_chord) as well as their inversions. Also adding [intervals](https://en.wikipedia.org/wiki/Interval_(music)) when only two notes are inputted. Lastly I'd like to be able to define [extended chords](https://en.wikipedia.org/wiki/Extended_chord) (11 & 13 chords) with only 4 notes:
 
+Input:
+
+	G F A E
+	
+Output:
+
+	G 13
+	
 Since the last update I realized I could probably make tons of improvments in my code and port this to java and make an app out of it so this update will probably be the last.
