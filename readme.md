@@ -28,7 +28,7 @@ The program will run through both arrays and grab which ever values match. Doubl
 | **Sharps** | A | A# | B | C | C# | D | D# | E | F | F# | G | G# |
 | **Flats** | A | Bb | B | C | Db | D | Eb | E | F | Gb | G | Ab |
 ---
-##Example
+## Example
 Currently supports up to 4 notes but not all chords combinations have been defined.
 
 Input:
